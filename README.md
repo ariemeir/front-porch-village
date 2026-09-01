@@ -92,6 +92,35 @@ maps, a gradient sky dome shader.
 > Everything in the study is a variable, including all of it. Tell me what's wrong
 > and you'll see it changed in the same conversation.
 
+## Hosting it as a standalone page
+
+`front-porch-village.html` is authored as a body fragment (it carries its own
+`<title>`, `<link>` and `<style>`, but no document skeleton). To get a page you
+can host anywhere:
+
+    python3 build_standalone.py
+
+That writes `site/`:
+
+- `site/index.html` — the whole study in one file, with a real `<head>`
+- `site/robots.txt` — `Disallow: /`
+- `site/_headers` — `X-Robots-Tag: noindex, nofollow, noarchive` for hosts that read it
+  (Netlify, Cloudflare Pages)
+
+The page is marked **noindex, nofollow, noarchive, nosnippet, noimageindex** in
+three places — the meta tag, a googlebot-specific tag, and robots.txt — so it
+stays a link-only draft rather than something a donor finds by searching. It
+carries no analytics, no trackers and no third-party embeds. The only outbound
+requests are Three.js from cdnjs and the three typefaces from Google Fonts; drop
+local copies beside the file if you want it fully self-contained and offline.
+
+Drag `site/` onto Netlify Drop, or point any static host at it. GitHub Pages
+works too, but note that Pages repos are public and Pages ignores `_headers` —
+the meta tags and robots.txt still apply.
+
+Re-run the build after any edit to `front-porch-village.html`; `site/` is a
+generated artifact, not a second copy to maintain.
+
 ## Local preview note
 
 The page loads Three.js from `cdnjs.cloudflare.com` and fonts from Google Fonts.
