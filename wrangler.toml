@@ -5,6 +5,6 @@
 # Run from this directory, with wrangler already authenticated. The page is a
 # link-only draft: site/_headers sends X-Robots-Tag on every response, and
 # site/robots.txt disallows crawling, both of which Pages honors.
-name = "elev8-front-porch-village"
+name = "front-porch-3d-demo"
 compatibility_date = "2026-08-01"
 pages_build_output_dir = "site"
