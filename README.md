@@ -1,14 +1,42 @@
 # Front Porch Village — interactive concept study
 
-A self-contained, real-time 3D concept study built for the Elev8 Villages Taproot
+A self-contained, real-time 3D concept study built for a Taproot
 opportunity: *3D Concept Rendering — Tiny Homes & Front Porch Community*.
 
 Three individual tiny homes with deep front porches, arranged in a shallow
 horseshoe around a shared green. It runs in a browser, at any hour of the day,
 and you can walk around it.
 
+**→ [Open the live demo](https://front-porch-village.pages.dev)**
+
 **File:** `front-porch-village.html` — one file, no build step, no assets.
 Open it in any modern browser, or publish it as a link.
+
+> Pro bono / non-profit consulting project, built from a brief. The commissioning
+> organisation is not named here.
+
+<p align="center">
+  <img src="docs/images/01-hero.jpg" width="820"
+       alt="Title screen over a dimmed dusk render of the village, headed The dignity of a front door of your own, with an Enter the Village button.">
+  <br>
+  <em>The thesis before the geometry: three front doors close enough that being
+  known is easy.</em>
+</p>
+
+<p align="center">
+  <img src="docs/images/02-the-green-morning.jpg" width="820"
+       alt="Real-time 3D view of three tiny homes with deep porches arranged around a circular shared green, string lights between them, two figures walking, at 8:30 in the morning.">
+  <br>
+  <em>8:30 AM. Three homes, three porches, one green. Drag to walk around it.</em>
+</p>
+
+<p align="center">
+  <img src="docs/images/03-golden-hour.jpg" width="820"
+       alt="The same village rendered at 7:09 PM in warm golden light with long shadows across the green.">
+  <br>
+  <em>7:09 PM, the same geometry. The time-of-day slider is the argument: a still
+  image has to pick one moment, this one does not have to yet.</em>
+</p>
 
 ## Why interactive, for this brief
 
@@ -22,7 +50,7 @@ yet — which is the point at concept stage:
   it is very hard to prove in a single frame.
 - **Light is half the emotion.** The time-of-day slider runs 6:00 am to 9:36 pm.
   The same geometry reads as a bright, safe morning and as a warm, gathered
-  evening. Melissa can decide which one the final rendering should be *after*
+  evening. MK can decide which one the final rendering should be *after*
   seeing both.
 - **Feedback is cheap here and expensive later.** Move a home, widen a porch,
   change a door color — a variable, not a re-render.

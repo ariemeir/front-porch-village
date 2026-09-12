@@ -17,7 +17,7 @@ SRC = HERE / "front-porch-village.html"
 OUT_DIR = HERE / "site"
 
 DESCRIPTION = (
-    "An interactive 3D concept study for Elev8 Villages: three tiny homes with "
+    "An interactive 3D concept study for a transitional housing non-profit: three tiny homes with "
     "deep front porches around a shared green, for young adults aging out of "
     "foster care."
 )
@@ -61,7 +61,7 @@ def build() -> None:
   <title>{title}</title>
   <meta name="description" content="{DESCRIPTION}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{title} — Elev8 Villages concept study">
+  <meta property="og:title" content="{title} — concept study">
   <meta property="og:description" content="{DESCRIPTION}">
 
 {head_links}
