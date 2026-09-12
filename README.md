@@ -12,30 +12,32 @@ and you can walk around it.
 **File:** `front-porch-village.html` — one file, no build step, no assets.
 Open it in any modern browser, or publish it as a link.
 
-> Pro bono / non-profit consulting project, built from a brief. The commissioning
-> organisation is not named here.
+> Pro bono consulting project for a non-profit, built from a written brief. The
+> organisation that commissioned it is not named here.
 
 <p align="center">
   <img src="docs/images/01-hero.jpg" width="820"
        alt="Title screen over a dimmed dusk render of the village, headed The dignity of a front door of your own, with an Enter the Village button.">
   <br>
-  <em>The thesis before the geometry: three front doors close enough that being
-  known is easy.</em>
+  <em>The opening screen. Three front doors placed close enough together that
+  neighbours recognise each other.</em>
 </p>
 
 <p align="center">
   <img src="docs/images/02-the-green-morning.jpg" width="820"
        alt="Real-time 3D view of three tiny homes with deep porches arranged around a circular shared green, string lights between them, two figures walking, at 8:30 in the morning.">
   <br>
-  <em>8:30 AM. Three homes, three porches, one green. Drag to walk around it.</em>
+  <em>8:30 AM. Three homes, three porches and one shared green. Drag to look
+  around, scroll to move closer.</em>
 </p>
 
 <p align="center">
   <img src="docs/images/03-golden-hour.jpg" width="820"
        alt="The same village rendered at 7:09 PM in warm golden light with long shadows across the green.">
   <br>
-  <em>7:09 PM, the same geometry. The time-of-day slider is the argument: a still
-  image has to pick one moment, this one does not have to yet.</em>
+  <em>7:09 PM, the same model. The time-of-day slider is why this is interactive:
+  a single rendered image would have to commit to one time of day, and at concept
+  stage that choice has not been made yet.</em>
 </p>
 
 ## Why interactive, for this brief
